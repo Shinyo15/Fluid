@@ -5,7 +5,7 @@ Creating a ViewHelper is extremely simple. First, make sure you read the [chapte
 so you know where ViewHelper class files are expected to be placed in your own package and that you understand how/why you would
 require a custom ViewHelper.
 
-Let's create an example ViewHelper which will accept exactly two argumnts, both arrays, and use those arrays to create a new
+Let's create an example ViewHelper which will accept exactly two arguments, both arrays, and use those arrays to create a new
 array using `array_combine` which takes one argument with keys and another of the same size with values. We would like this new
 ViewHelper to be usable in inline syntax - for example as value of the `each` argument on `f:for` to iterate the combined array.
 And finally, we would like to be able to specify the "values" array also in the special inline syntax for tag content:
